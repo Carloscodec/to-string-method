@@ -19,7 +19,7 @@ public class Program {
 		System.out.print("Quantity in stock: ");
 		product.quantity = input.nextInt();
 		
-		System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+		System.out.println(product);
 		
 		input.close();
 
